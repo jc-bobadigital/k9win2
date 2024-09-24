@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/k9win2/static/css/main.52e3bfa4.css",
+    "main.js": "/k9win2/static/js/main.f7d65fae.js",
+    "static/media/bg.jpg": "/k9win2/static/media/bg.3694c7133855fe3838e1.jpg",
+    "static/media/item.png": "/k9win2/static/media/item.9db7afbf75b35612c1ad.png",
+    "static/media/logo_inr.png": "/k9win2/static/media/logo_inr.1b6dc0eaf8869b120973.png",
+    "index.html": "/k9win2/index.html",
+    "main.52e3bfa4.css.map": "/k9win2/static/css/main.52e3bfa4.css.map",
+    "main.f7d65fae.js.map": "/k9win2/static/js/main.f7d65fae.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.52e3bfa4.css",
+    "static/js/main.f7d65fae.js"
+  ]
+}
