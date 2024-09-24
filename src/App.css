@@ -275,4 +275,9 @@ h1 > .wrap {
     .banner h1 {
         margin-top: 90px;
     }
+
+    .banner .bounce {
+        margin-left: -78px;
+        width: 140%;
+    }
 }
