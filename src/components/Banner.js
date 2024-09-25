@@ -1,7 +1,8 @@
 import { useState, useEffect } from "react"
 import { Row, Col, Container, Button } from "react-bootstrap"
 import { ArrowRightCircle } from "react-bootstrap-icons"
-import headerImg from "../assets/img/item.png"
+import Lottie from "lottie-react"
+import animationData from "../assets/json/casino1.json"
 
 export const Banner = () => {
     const [isDeleting, setIsDeleting] = useState(false);
@@ -55,12 +56,8 @@ export const Banner = () => {
                 <div className="confetti"></div>
             </div>
             <Container>
-                {/* <img className="bg" src={headerImg2} alt="Header Img" /> */}
-                <Row className="align-items-center">
+                <Row className="align-items-center w-100">
                     <Col className="column-1 text-center" xs={12} md={6} xl={7}>
-                        {/* <h1>Mega Lotto Jackpot up to INR <span className="wrap">{text}</span></h1>
-                        <h2>Fastest Withdrawal Time in the Market!</h2>
-                        <h2>75% Reload Bonus!</h2> */}
                         <h1 className="promo-text">
                             <div>100%</div>
                             <div>Welome Bonus</div>
@@ -69,7 +66,7 @@ export const Banner = () => {
                         <Button href="https://k9inr1.com/en/promotion" variant="warning" size="lg">Play Now and Win <ArrowRightCircle size={25} /></Button>
                     </Col>
                     <Col className="column-2" xs={12} md={6} xl={5}>
-                        <img className="bounce" src={headerImg} alt="Header Img" />
+                        <Lottie animationData={animationData} />
                     </Col>
                 </Row>
             </Container>
