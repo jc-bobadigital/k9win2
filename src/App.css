@@ -80,6 +80,11 @@ a:hover {
     /* animation: updown 3s linear infinite; */
 }
 
+.banner .column-2 svg {
+    width: 150% !important;
+    margin-left: -20px;
+}
+
 @keyframes updown {
     0% {
         transform: translateY(-20px);
@@ -233,7 +238,7 @@ h1 > .wrap {
         2px 2px 0px #000000,
         4px 4px 0px rgba(0, 0, 0, 0.5);
 
-    transform: perspective(300px) rotateY(10deg) rotate(-2deg);
+    transform: perspective(300px) rotateY(-10deg) rotate(2deg);
 
     margin-top: 40px;
 }
@@ -258,10 +263,19 @@ h1 > .wrap {
         text-align: center;
     }
 
+    .container .row {
+        flex-direction: column-reverse;
+        justify-content: space-evenly;
+    }
+
     .banner .bg {
         width: 427px;
         left: 0;
         top: 460px;
+    }
+
+    .banner .column-2 svg {
+        margin-left: -83px;
     }
 
     .promo-text {
