@@ -75,14 +75,14 @@ a:hover {
 }
 
 .banner .bounce {
-    width: 180%;
-    margin-left: -270px;
-    /* animation: updown 3s linear infinite; */
+    width: 100%;
 }
 
-.banner .column-2 svg {
-    width: 150% !important;
-    margin-left: -20px;
+.banner svg {
+    position: absolute;
+    width: 50% !important;
+    top: 30px;
+    right: 170px;
 }
 
 @keyframes updown {
@@ -238,7 +238,7 @@ h1 > .wrap {
         2px 2px 0px #000000,
         4px 4px 0px rgba(0, 0, 0, 0.5);
 
-    transform: perspective(300px) rotateY(-10deg) rotate(2deg);
+    transform: perspective(300px) rotateY(10deg) rotate(-2deg);
 
     margin-top: 40px;
 }
