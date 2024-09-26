@@ -261,10 +261,11 @@ h1 > .wrap {
     .container {
         display: block;
         text-align: center;
+        justify-content: center;
+        padding: 0;
     }
 
     .container .row {
-        flex-direction: column-reverse;
         justify-content: space-evenly;
     }
 
@@ -274,16 +275,18 @@ h1 > .wrap {
         top: 460px;
     }
 
-    .banner .column-2 svg {
-        margin-left: -83px;
+    .banner svg {
+        display: none;
     }
 
     .promo-text {
         transform: none;
+        font-size: 50px !important;
     }
 
     .banner a {
         margin-top: 0;
+        font-size: 28px;
     }
 
     .banner h1 {
@@ -291,7 +294,7 @@ h1 > .wrap {
     }
 
     .banner .bounce {
-        margin-left: -78px;
-        width: 140%;
+        margin-left: -16px;
+        width: 116%;
     }
 }
